@@ -3,6 +3,7 @@ export const errorCodeType = (code: string) => {
 
   switch (code.toString()) {
     case '401':
+      msg = '没有权限'
       break;
     case '403':
       break;

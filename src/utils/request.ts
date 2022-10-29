@@ -13,11 +13,12 @@ const service = axios.create({
 });
 
 // Loading 对象
-// let loading:any 
+// let loading:any
 
 // 正在请求的数量
 // let requestCount = 0;
 
+// 请求拦截器
 service.interceptors.request.use((config: AxiosRequestConfig<any>) => {
   // 请求之前设置 token
   const token = getStore('token');

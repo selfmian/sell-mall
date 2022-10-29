@@ -1,5 +1,7 @@
 /**
  * 存储localStorage
+ * @param name 参数名称
+ * @param content 内容
  */
 export const setStore = (name: string, content: any) => {
   if (!name) return;
@@ -11,6 +13,7 @@ export const setStore = (name: string, content: any) => {
 
 /**
  * 获取localStorage
+ * @param name 
  */
 export const getStore = (name: string) => {
   if (!name) return;
@@ -19,8 +22,10 @@ export const getStore = (name: string) => {
 
 /**
  * 删除localStorage
+ * @param name 
+ * @returns 
  */
 export const removeStore = (name: string) => {
   if (!name) return;
-  window.localStorage.remvoeItem(name);
+  window.localStorage.removeItem(name);
 }

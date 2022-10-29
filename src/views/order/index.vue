@@ -1,6 +1,5 @@
 <template>
-  <!-- 给login页面用的 -->
-  <router-view></router-view>
+  <div>我是订单列表</div>
 </template>
 
 <script setup lang="ts">
