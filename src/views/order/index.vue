@@ -1,5 +1,5 @@
 <template>
-  <div>我是订单列表1</div>
+  <div>我是订单列表</div>
 </template>
 
 <script setup lang="ts">
